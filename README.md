@@ -5,9 +5,10 @@ Pose guided Anime Video Generator using Deep Learning. Its a self project create
 
 The Idea behind this project is to generate Anime video (Target Video) from corresponding real time human video (Source Video). 
 The Idea is split into three parts - 
-  1. Split video into Frames
-  2. Extract the pose sequence from each frame.
-  3. Generate the Anime character corresponding to each pose.
+
+    1. Split video into Frames
+    2. Extract the pose sequence from each frame.
+    3. Generate the Anime character corresponding to each pose.
  
 
 ## Pose sequence extraction
