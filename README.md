@@ -3,14 +3,15 @@ Pose guided Anime Video Generator using Deep Learning. Its a self project create
 
 ## Idea and Goal
 
-The Idea behind this project is to generate Anime video (Target Video) from corresponding real time human video (Source Video). 
-### Approach
+Well in the current revolutionising digital world, animated videos are making a huge impact over society. Every person irrespective of their age group loves to watch animated videos because its engaging not only in terms of entertainment but also educative. As its getting day by day popular among millenials or middle class person, still there's a part of society who cannot afford such electronic gadets or have cable connection or subscriptions of TV channels, running such animated programs. So, this project Idea arise from this thought, to why not use Deep learning (espically, Generative Adversarial Networks) to design such model which can generate Animated Videos directly from Real time videos recoreded from Mobile and this available to every class of society. 
 
+### Approach
+The Idea behind this project is to generate Anime video (Target Video) from corresponding real time human video (Source Video). 
 The Idea is split into three parts - 
 
     1. Split video into Frames
-    2. Extract the pose sequence from each frame.
-    3. Generate the Anime character corresponding to each pose.
+    2. Extract the pose sequence for each person from each frame.
+    3. Generate the Anime character corresponding to each pose sequence.
  
 
 ## Pose Estimation
