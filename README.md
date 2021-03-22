@@ -3,7 +3,7 @@ Pose guided Anime Video Generator using Deep Learning. Its a self project create
 
 ## Idea and Goal
 
-Well in the current revolutionising digital world, animated videos are making a huge impact over society. Every person irrespective of their age group loves to watch animated videos because its engaging not only in terms of entertainment but also educative. As its getting day by day popular among millenials or middle class person, still there's a part of society who cannot afford such electronic gadets or have cable connection or subscriptions of TV channels, running such animated programs. So, this project Idea arise from this thought, to why not use Deep learning (especially, Generative Adversarial Networks) to design such model which can generate Animated Videos directly from Real time videos recoreded from Mobile and this available to every class of society. 
+Well in the current revolutionising digital world, animated videos are making a huge impact over society. Every person irrespective of their age group loves to watch animated videos because its engaging not only in terms of entertainment but also educative. As its getting day by day popular among millenials or middle class person, still there's a part of society who cannot afford such electronic gadets or have cable connection or subscriptions of TV channels, running such animated programs. So, this project Idea arise from this thought, to why not use Deep learning (especially, [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)) to design such model which can generate Animated Videos directly from Real time videos recoreded from Mobile and this available to every class of society. 
 
 ### Approach
 The Idea behind this project is to generate Anime video (Target Video) from corresponding real time human video (Source Video). 
@@ -36,6 +36,7 @@ But for this task, best way will to use Unsupervised way, as custom dataset crea
 Apart from these, I found the paper ["Unsupervised Image-to-Image Translation via Pre-trained StyleGAN2 Network"](https://arxiv.org/abs/2010.05713) is best suited for this task. ***Huang, J et. al.*** used pre-trained StyleGAN2 model for high quality anime face generation, preserving the sementic charactersistcs of the input image. I'm also inspired by the work of ***Koichi Hamada et. al.*** for ["Full-body High-resolution Anime Generation with Progressive Structure-conditional Generative Adversarial Networks"](https://arxiv.org/pdf/1809.01890.pdf), which can be taken as a reference for this task. 
 
 
+
 ## Related Works
 
 Some of the related state of the art works done in the past and in the recent years are mentioned below : 
@@ -62,4 +63,3 @@ Some of the related state of the art works done in the past and in the recent ye
 
 
 
-## References
