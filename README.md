@@ -45,10 +45,12 @@ Some of the related state of the art works done in the past and in the recent ye
         The approach has the advantage of reasoning about pose in a holistic fashion and has a simple 
         but yet powerful formulation which capitalizes on recent advances in Deep Learning." - Authors 
         
-        ![DeepPose](/images/deeppose.png)
+![DeepPose](/images/deeppose.png)
         
-2. First Order Motion Model -  This paper presents the appraoch of generating the video sequences by learning the motion using keypoints from a driving video. It uses a Deep Generative model that decouples the motion aand appearance together to generate animated videos. ![FOM](/images/fom2.gif)  
-3. Every Body Dance Now -  This paper presents a simple approach for Motion Transfer using pose as a intermediate representation. It takes a input source video of a person dancing and based on the extracted pose, it transfers the motion to the target subject. ![EveryBodydanceNow](/images/pose2pose.gif)
+2. First Order Motion Model -  This paper presents the appraoch of generating the video sequences by learning the motion using keypoints from a driving video. It uses a Deep Generative model that decouples the motion aand appearance together to generate animated videos.   
+![FOM](/images/fom2.gif)
+3. Every Body Dance Now -  This paper presents a simple approach for Motion Transfer using pose as a intermediate representation. It takes a input source video of a person dancing and based on the extracted pose, it transfers the motion to the target subject. 
+![EveryBodydanceNow](/images/pose2pose.gif)
 
 
 
