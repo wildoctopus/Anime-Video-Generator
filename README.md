@@ -33,19 +33,21 @@ For supervised way, we have to prepare custom dataset of Paired images ((Pose) <
 
 But for this task, best way will to use Unsupervised way, as custom dataset creation is not feaible solution. The reason behind this is that the generated anime character should preserve the sementic charactersitcs of the Input Image (i.e. it should resemble similar to the person in the video frames). Now the point is that input video can contain N number of unknown person, so to create custom dataset corresponding to them is a difficult task. So for this task, I found unsupervised learning is the better approach for Pose to Anime generation. Several research work has been published focusing on Unsupervised way of Image synthesis from a latent noise. Out of various State of the Art generative appraches Progressive Generative Adversarial Network, StyleGAN and its variant StyleGAN2 has proved to be the good choices for High resolution image synthesis. 
 
-Apart from these, I found the paper "Unsupervised Image-to-Image Translation via Pre-trained StyleGAN2 Network" is best suited for this task. Authors used pre-trained StyleGAN2 model for high quality anime generation, preserving the sementic charactersistcs of the input image. I'm also inspired by the work of Authors for "Full-body High-resolution Anime Generation with Progressive Structure-conditional Generative Adversarial Networks", which can be taken as a reference for this task. 
+Apart from these, I found the paper "Unsupervised Image-to-Image Translation via Pre-trained StyleGAN2 Network" is best suited for this task. Authors used pre-trained StyleGAN2 model for high quality anime face generation, preserving the sementic charactersistcs of the input image. I'm also inspired by the work of Authors for "Full-body High-resolution Anime Generation with Progressive Structure-conditional Generative Adversarial Networks", which can be taken as a reference for this task. 
 
 
 ## Related Works
 
-Some of the related works done in the past are mentioned below : 
+Some of the related state of the art works done in the past and in the recent years are mentioned below : 
 1. DeepPose: Human Pose Estimation via Deep Neural Networks -  This was the first research that applied Deep Learning to Human Pose Estimation. The aper formulates the Pose Estimation problem as a DNN-based regression problem towards body  joints. 
 
         "We present a cascade of such DNN regressors which results in high precision pose estimates. 
-        Theapproach has the advantage of reasoning about pose in aholistic fashion and has a simple but yet powerful formulation which capitalizes 
-        on recent advances in Deep Learning." - Authors 
+        The approach has the advantage of reasoning about pose in a holistic fashion and has a simple 
+        but yet powerful formulation which capitalizes on recent advances in Deep Learning." - Authors 
         
-2. Every Body Dance Now -  
+2. First Order Motion Model -  This paper presents the appraoch of generating the video sequences by learning the motion using keypoints from a driving video. It uses a Deep Generative model that decouples the motion aand appearance together to generate animated videos.  
+3. Every Body Dance Now -  This paper presents a simple approach for Motion Transfer using pose as a intermediate representation. It takes a input source video of a person dancing and based on the extracted pose, it transfers the motion to the target subject.   
+4. 
 
 
 ## References
