@@ -31,14 +31,19 @@ Human pose estimation is a heated topic now day as it has a wide application lik
 Once we have the pose, the next step is to translate those pose into a Anime character. This can be acheived in both the ways i.e. Supervised and Unsupervised. 
 For supervised way, we have to prepare custom dataset of Paired images ((Pose) <-> (target Animes)) and train Deep Learning models like Pix2Pix GAN, a very popular GAN architecture for Image to Image (I2I) translation. Other variant of Pix2Pix is Pix2PixHD, that is capable of generating High Resolution and fine grained images. 
 
-But for this project, best way will to use Unsupervised way, as custom dataset creation is not feaible solution. The reason behind this is that the generated anime character should preserve the sementic charactersitcs of the Input Image (i.e. it should resemble similar to the person in the video frames). Now the point is that input video can contain N number of unknown person, so to create custom dataset corresponding to them is a difficult task. So for this task unsupervised learning is the better approach for Pose to Anime generation. Several research work has been published focusing on Unsupervised way of Image synthesis from a latent noise. Out of various State of the Art generative appraches Progressive Generative Adversarial Network, StyleGAN and its variant StyleGAN2 has proved to be a good choices for High resolution image synthesis. 
+But for this task, best way will to use Unsupervised way, as custom dataset creation is not feaible solution. The reason behind this is that the generated anime character should preserve the sementic charactersitcs of the Input Image (i.e. it should resemble similar to the person in the video frames). Now the point is that input video can contain N number of unknown person, so to create custom dataset corresponding to them is a difficult task. So for this task, I found unsupervised learning is the better approach for Pose to Anime generation. Several research work has been published focusing on Unsupervised way of Image synthesis from a latent noise. Out of various State of the Art generative appraches Progressive Generative Adversarial Network, StyleGAN and its variant StyleGAN2 has proved to be the good choices for High resolution image synthesis. 
+
+Apart from these, I found the paper "Unsupervised Image-to-Image Translation via Pre-trained StyleGAN2 Network" is best suited for this task. Authors used pre-trained StyleGAN2 model for high quality anime generation, preserving the sementic charactersistcs of the input image. I'm also inspired by the work of Authors for "Full-body High-resolution Anime Generation with Progressive Structure-conditional Generative Adversarial Networks", which can be taken as a reference for this task. 
 
 
-## Related Work
+## Related Works
 
-### Image to Image translation
+Some of the related works done in the past are mentioned below : 
+1. DeepPose: Human Pose Estimation via Deep Neural Networks -  This was the first research that applied Deep Learning to Human Pose Estimation. The aper formulates the Pose Estimation problem as a DNN-based regression problem towards body  joints. 
 
+        "We  present  a  cascade  of  such  DNN  regres-sors  which  results  in  high  precision  pose  estimates.   Theapproach has the advantage of reasoning about pose in aholistic fashion and has a simple but yet powerful formula-tion which capitalizes on recent advances in Deep Learning." - Authors 
+        
+2. Every Body Dance Now -  
 
-### Video to Video translation
 
 ## References
