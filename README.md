@@ -44,15 +44,21 @@ Some of the related state of the art works done in the past and in the recent ye
         We present a cascade of such DNN regressors which results in high precision pose estimates. 
         The approach has the advantage of reasoning about pose in a holistic fashion and has a simple 
         but yet powerful formulation which capitalizes on recent advances in Deep Learning. - Alexander Toshev et. al. 
-        
-![DeepPose](/images/deeppose.png?style=centerme)
+
+<p align="center">
+  <img src="/images/deeppose.png" width=70% height=70% >
+</p>  
         
         
 2. [**First Order Motion Model**](https://arxiv.org/abs/2003.00196)-  This paper presents the appraoch of generating the video sequences by learning the motion using keypoints from a driving video. It uses a Deep Generative model that decouples the motion aand appearance together to generate animated videos.   
-![FOM](/images/fom2.gif?style=centerme)
+<p align="center">
+  <img src="/images/fom2.gif">
+</p> 
 
 3. [**Every Body Dance Now**](https://arxiv.org/abs/1808.07371) -  This paper presents a simple approach for Motion Transfer using pose as a intermediate representation. It takes a input source video of a person dancing and based on the extracted pose, it transfers the motion to the target subject. 
-![EveryBodydanceNow](/images/pose2pose.gif?style=centerme)
+<p align="center">
+  <img src="/images/pose2pose.gif">
+</p>
 
 
 
