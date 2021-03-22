@@ -41,7 +41,9 @@ Apart from these, I found the paper "Unsupervised Image-to-Image Translation via
 Some of the related works done in the past are mentioned below : 
 1. DeepPose: Human Pose Estimation via Deep Neural Networks -  This was the first research that applied Deep Learning to Human Pose Estimation. The aper formulates the Pose Estimation problem as a DNN-based regression problem towards body  joints. 
 
-        "We  present  a  cascade  of  such  DNN  regres-sors  which  results  in  high  precision  pose  estimates.   Theapproach has the advantage of reasoning about pose in aholistic fashion and has a simple but yet powerful formula-tion which capitalizes on recent advances in Deep Learning." - Authors 
+        "We present a cascade of such DNN regressors which results in high precision pose estimates. 
+        Theapproach has the advantage of reasoning about pose in aholistic fashion and has a simple but yet powerful formulation which capitalizes 
+        on recent advances in Deep Learning." - Authors 
         
 2. Every Body Dance Now -  
 
