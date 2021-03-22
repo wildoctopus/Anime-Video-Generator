@@ -41,6 +41,8 @@ Apart from these, I found the paper ["Unsupervised Image-to-Image Translation vi
 <p align="center">
   <img src="/images/avtaranime.png"><span class="img_caption" style="display: block; text-align: center; font-size: 7;">Fig: Full body anime generation from pose using PSGAN</span>
 
+
+
 ## Related Works
 
 Some of the related state of the art works done in the past and in the recent years are mentioned below : 
