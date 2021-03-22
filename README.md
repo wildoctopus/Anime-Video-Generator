@@ -53,7 +53,7 @@ Some of the related state of the art works done in the past and in the recent ye
         
 2. [**First Order Motion Model**](https://arxiv.org/abs/2003.00196)-  This paper presents the appraoch of generating the video sequences by learning the motion using keypoints from a driving video. It uses a Deep Generative model that decouples the motion aand appearance together to generate animated videos.   
 <p align="center">
-  <img src="/images/fom2.gif"><span class="img_caption" style="display: block; text-align: center; font-size: 7pt;">Fig: How FOM generates image of a women turning 180 degree.</span>
+  <img src="/images/fom2.gif"><span class="img_caption" style="display: block; text-align: center; font-size: 7;">Fig: How FOM generates image of a women turning 180 degree.</span>
 </p> 
 
 3. [**Every Body Dance Now**](https://arxiv.org/abs/1808.07371) -  This paper presents a simple approach for Motion Transfer using pose as a intermediate representation. It takes a input source video of a person dancing and based on the extracted pose, it transfers the motion to the target subject. 
