@@ -2,7 +2,7 @@
 Pose guided Anime Video Generator using Deep Learning. Its a self project created being inspired by [StyleGAN2](https://arxiv.org/abs/1912.04958), [ProgressiveGAN](https://arxiv.org/abs/1710.10196) and Unsupervised Image-to-Image translation.
 
 <p align="center">
-  <img src="/images/finaldance.gif" width=70% height=70% >
+  <img src="/images/finaldance.gif">
 </p> 
 
 ## Idea and Goal
