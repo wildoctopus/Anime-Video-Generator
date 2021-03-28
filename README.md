@@ -1,6 +1,10 @@
 # Anime-Video-Generator
 Pose guided Anime Video Generator using Deep Learning. Its a self project created being inspired by [StyleGAN2](https://arxiv.org/abs/1912.04958), [ProgressiveGAN](https://arxiv.org/abs/1710.10196) and Unsupervised Image-to-Image translation.
 
+<p align="center">
+  <img src="/images/finaldance.gif" width=70% height=70% >
+</p> 
+
 ## Idea and Goal
 
 Well in the current revolutionising digital world, animated videos are making a huge impact over society. Every person irrespective of their age group loves to watch animated videos because its engaging not only in terms of entertainment but also educative. As its getting day by day popular among millenials or middle class person, still there's a part of society who cannot afford such electronic gadets or have cable connection or subscriptions of TV channels, running such animated programs. So, this project Idea arise from this thought, to why not use Deep learning (especially, [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661)) to design such model which can generate Animated Videos directly from Real time videos recoreded from Mobile and this available to every class of society. 
